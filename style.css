@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Pippins&display=swap');
+*{
+  box-sizing : border-box;
+}
+body{
+  background-color : #130f40;
+  color : #fff;
+  display : flex;
+  align-items: center;
+  justify-content : center;
+  font-family : "Poppins",sans-serif;
+  min-height: 100vh;
+  text-align: center;
+  
+}
+button{
+   background-color:transparent;
+  color:#fff;
+  font-size:20px;
+  padding : 10px 15px;
+  margin : 10px;
+  cursor:pointer;
+}
+.timer-container{
+  margin : 20px;
+}
+.flex{
+  display : flex;
+  align-items: center;
+  justify-content : center;
+}
+
+.actions-wrapper span{
+  font-size:40px;
+  margin:0 10px;
+  width : 50px;
+}
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 100px;
+  margin-top:20px;
+}
+.clock-container h1{
+  margin : 0;
+}
+.timer-container h2{
+  margin : -50px 20px 20px;
+}
+.clock-container span{
+  font-size: 60px;
+}
